@@ -1,0 +1,64 @@
+.card {
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: var(--branco);
+    border-radius: 0.675em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px var(--sombra);
+}
+
+.card__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__sugestao {
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 0.5em 0;
+}
+
+.card__texto {
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    padding-right: 1rem;
+}
+
+.card__imagens {
+    padding-top: 1em;
+    display: flex;
+    gap: 1.75em;
+}
+
+.card__imagens__icone {
+    width: 80%;
+}
+
+.card__container__segundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card__imagem__logo{
+    width: 40vw;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+.card__botao {
+    background-color: var(--laranja);
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    padding: 1em;
+}
+
+.card__estrelas{
+    padding: 0.5em 0;
+}
