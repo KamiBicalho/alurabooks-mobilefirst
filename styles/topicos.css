@@ -2,6 +2,7 @@
     background: var(--azul-degrade);
     text-align: center;
     border-top: 1.2em solid var(--branco);
+    padding: 1em 0;
 }
 
 .topicos__container {
@@ -12,7 +13,7 @@
 
 .topicos__titulo {
     font-weight: 300;
-    padding: 1.5em;
+    padding: 0.5em 0 1.5em;
     color: var(--branco);
     text-shadow: black 0 4px 4px;
 }
@@ -28,4 +29,19 @@
     font-weight: 700;
     padding: 1rem 1.5rem;
     background-color: var(--laranja);
+}
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo {
+        font-size: 1.5rem;
+    }
+
+    .topicos__lista {
+        margin: 2.5em 1em;
+    }
+
+    .topicos__botao {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
 }

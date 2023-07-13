@@ -62,3 +62,26 @@
 .card__estrelas{
     padding: 0.5em 0;
 }
+
+@media screen and (min-width: 1024px){
+    .card {
+        width: 50%;
+        margin: 2rem auto;
+    }
+    
+    .card__imagens {
+        padding-top: 4em;
+    }
+    
+    .card__imagens__icone {
+        width: 100%;
+    }
+    
+    .card__imagem__logo{
+        width: 16vw;
+    }
+    
+    .card__estrelas{
+        padding: 0.5em 0;
+    }
+}
