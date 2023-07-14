@@ -3,10 +3,53 @@ hr {
 }
 
 .rodape {
-    background-color: var(--branco);
+    background-color: var(--rodape-fundo);
     padding: 1.5rem;
 }
 
 .rodape__texto {
     color: var(--preto);
+}
+
+.rodape__coluna{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        padding: 3.5rem 1rem;
+    }
+    
+    .rodape__coluna{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__texto {
+        padding-right: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .rodape__coluna__titulo {
+        font-size: 0.875rem;
+        color: var(--rodape-titulo);
+        padding-bottom: 0.5em;
+    }
+
+    .rodape__coluna__botao{ 
+        display: flex;
+        align-items: center;
+    }
+    
+    .rodape__coluna__icone{
+        padding: 0.5rem;
+    }
+
+    .rodape__coluna__link {
+        font-size: 0.875rem;
+        color: var(--rodape-link);
+        text-decoration: none;
+    }
 }
