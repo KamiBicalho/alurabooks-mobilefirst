@@ -53,3 +53,10 @@ hr {
         text-decoration: none;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .rodape__coluna {
+        padding-left: 1.25rem;
+        border-left: 1px solid var(--rodape-titulo);
+    }
+}

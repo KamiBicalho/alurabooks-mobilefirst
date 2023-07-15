@@ -2,7 +2,7 @@
     background: var(--azul-degrade);
     text-align: center;
     border-top: 1.2em solid var(--branco);
-    padding: 1em 0;
+    padding: 1em 0 2em;
 }
 
 .topicos__container {
@@ -43,5 +43,11 @@
     .topicos__botao {
         font-size: 1.5rem;
         padding: 1.5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .topicos {
+        padding: 3em 24vw;
     }
 }

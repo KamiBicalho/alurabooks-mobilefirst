@@ -85,3 +85,25 @@
         padding: 0.5em 0;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .card__imagem__logo{
+        width: 12vw;
+        padding-bottom: 1.5em;
+    }
+    
+    .card__titulo {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .card__sugestao {
+        padding: 1em 0;
+    }
+
+    .card__texto {
+        font-size: 1rem;
+    }
+
+
+}

@@ -57,10 +57,7 @@
         background-clip: text;
 }
 
-.container__logo {
-    display: none;
-}
-
+.container__logo,
 .opcoes {
     display: none;
 }
@@ -99,11 +96,10 @@
         color: var(--preto);
     }
 
-    .container__imagem__transparente {
-        display: none;
-    }
-
-    .cabecalho__menu__hamburger{
+    .container__imagem__transparente, 
+    .cabecalho__menu__hamburger, 
+    .opcoes__botao, 
+    .container__imagem__texto {
         display: none;
     }
 
@@ -112,8 +108,27 @@
         width: auto;
     }
 
-    .opcoes__botao {
-        display: none;
+}
+
+@media screen and (min-width: 1728px){
+    .container__imagem__texto{
+        display: block;
     }
 
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: var(--preto);
+        padding-left: 3rem;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+    
+    .container__logo {
+        padding-right: 3rem;
+    }
 }
