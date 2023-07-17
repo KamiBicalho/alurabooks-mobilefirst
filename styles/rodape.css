@@ -54,7 +54,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1728px){
     .rodape__coluna {
         padding-left: 1.25rem;
         border-left: 1px solid var(--rodape-titulo);
