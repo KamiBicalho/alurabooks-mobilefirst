@@ -14,3 +14,5 @@ Foi trabalhado o uso de Media Query para garantir a responsividade em diferentes
 
 ![Responsividade](https://github.com/KamiBicalho/alurabooks-mobilefirst/assets/132604923/8ea3e5b5-66ee-40ed-ae34-675562573870)
 
+## 🔗 Acesse
+Você pode acessar a página clicando [AQUI!](https://kamibicalho.github.io/alurabooks-mobilefirst/)
